@@ -4,8 +4,6 @@ import re
 import time
 import urllib.error
 
-
-
 def use_proxy(proxy_addr,url):
     try:
         import urllib.request
